@@ -1,0 +1,3 @@
+chart-paths:
+  - examples/alpine
+  - examples/nginx
