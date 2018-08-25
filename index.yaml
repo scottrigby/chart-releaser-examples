@@ -1,0 +1,35 @@
+apiVersion: v1
+entries:
+  alpine:
+  - appVersion: "3.3"
+    created: 2018-08-25T18:54:21.570266753-04:00
+    description: Deploy a basic Alpine Linux pod
+    digest: bb10357d2afa5a737bdf9cd3a1ebf42ede9c06f5ed184c884584003116f5ea0c
+    home: https://github.com/kubernetes/helm
+    name: alpine
+    sources:
+    - https://github.com/kubernetes/helm
+    urls:
+    - alpine-0.1.0.tgz
+    version: 0.1.0
+  nginx:
+  - created: 2018-08-25T18:54:21.57081152-04:00
+    description: A basic NGINX HTTP server
+    digest: 11d0f3115b7f010db375581441f1b7e195733673824320e2275067711bf7f969
+    home: https://github.com/kubernetes/helm
+    keywords:
+    - http
+    - nginx
+    - www
+    - web
+    kubeVersion: '>=1.2.0'
+    maintainers:
+    - email: mbutcher@deis.com
+      name: technosophos
+    name: nginx
+    sources:
+    - https://hub.docker.com/_/nginx/
+    urls:
+    - nginx-0.1.0.tgz
+    version: 0.1.0
+generated: 2018-08-25T18:54:21.569859388-04:00
